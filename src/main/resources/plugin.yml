@@ -1,0 +1,7 @@
+name: FastServerStart
+version: ${version}
+main: com.example.fastserverstart.FastServerStartPlugin
+api-version: '1.21'
+author: Codex
+folia-supported: false
+commands: {}
