@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.example.debugsticklock.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockStateMixin",
+    "DebugStickItemMixin",
+    "LevelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

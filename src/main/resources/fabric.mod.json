@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "debugsticklock",
+  "version": "${version}",
+  "name": "Debug Stick Lock",
+  "description": "Keeps debug stick-modified block shapes from being reset by neighbor updates.",
+  "authors": ["OpenAI Codex"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.debugsticklock.DebugStickLockMod"
+    ]
+  },
+  "mixins": [
+    "debugsticklock.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1"
+  }
+}
