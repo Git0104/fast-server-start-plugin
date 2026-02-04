@@ -1,0 +1,5 @@
+<button class="hamburger" aria-label="メニュー">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
