@@ -1,0 +1,9 @@
+startup:
+  # Disable keeping spawn chunks in memory during startup to reduce load time.
+  disable-spawn-keep-loaded: true
+
+  # Re-enable keeping spawn chunks after a short delay once startup completes.
+  reenable-keep-spawn-after-delay: false
+
+  # Delay before re-enabling keep-spawn-in-memory (ticks).
+  deferred-keep-spawn-delay-ticks: 100
